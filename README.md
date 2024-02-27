@@ -35,12 +35,10 @@ Before you begin, ensure you have met the following requirements:
 
 ### Installation
 
-1. Clone this repository:
+1. Install all packages:
 
 ```bash
-git clone https://bitbucket.org/avyatech/erp-apis/src/master/
-cd erp-apis
-npm install
+npm updtae
 ```
 <div id="configuration"></div>
 

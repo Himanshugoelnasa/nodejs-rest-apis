@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import * as dotenv from 'dotenv';
 dotenv.config();
-const MONGODB_CONNECTION_STRING = process.env.MONGODB_CONNECTION_STRING;
+const MONGODB_CONNECTION_STRING = process.env.MONGODB_CONNECTION_STRING_ONLINE;
 
 const connectDB = async () => {
   mongoose.connect(MONGODB_CONNECTION_STRING, {
