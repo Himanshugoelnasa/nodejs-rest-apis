@@ -5,8 +5,7 @@ const MONGODB_CONNECTION_STRING = process.env.MONGODB_CONNECTION_STRING;
 
 const connectDB = async () => {
   mongoose.connect(MONGODB_CONNECTION_STRING, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
+
   });
 
   const db = mongoose.connection;
