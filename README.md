@@ -38,7 +38,7 @@ Before you begin, ensure you have met the following requirements:
 1. Install all packages:
 
 ```bash
-npm updtae
+npm update
 ```
 <div id="configuration"></div>
 
